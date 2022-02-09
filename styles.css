@@ -38,9 +38,10 @@ body {
 .side {
     background-image: url(images/snowy-path.jpg);
     background-size: cover;
-    width: 50%;
+    
     display: flex;
     flex-direction: column;
+    flex: 0 0 40%;
 }
 
 .content {
@@ -62,15 +63,8 @@ body {
     margin: 0;
 }
 
-ul {
-    padding-left: 0px;
-    columns: 2;
-    width: 700px;
-}
-
-li {
-    list-style: none;
-    width: 300px;
+td {
+    width: 250px;
 }
 
 input, label {
@@ -78,7 +72,7 @@ input, label {
 }
 
 input {
-    width: 300px;
+
 }
 
 label {
