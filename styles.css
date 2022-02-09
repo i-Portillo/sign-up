@@ -71,11 +71,11 @@ input, label {
     display: block;
 }
 
-input {
-
-}
-
 label {
     font-size: x-small;
     letter-spacing: 2px;
+}
+
+button {
+    
 }
